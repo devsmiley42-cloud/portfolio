@@ -43,7 +43,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-semibold">Kamilath OSSENI</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Développeuse web junior passionnée, spécialisée en React et JavaScript. 
+              Développeuse FullStack junior passionnée. 
               Toujours à la recherche de nouveaux défis et d'opportunités d'apprentissage.
             </p>
             <div className="flex space-x-4">
