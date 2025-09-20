@@ -2,6 +2,7 @@ import { ExternalLink, Github, Eye } from 'lucide-react';
 import esgisImage from '@/assets/esgis-university.jpg';
 import { useLanguage } from '@/contexts/LanguageContext';
 import taskflowImage from '@/assets/task.png';
+import taxivertImage from '@/assets/TaxiVert.png';
 
 const ProjectsSection = () => {
   const { t } = useLanguage();
@@ -45,7 +46,17 @@ const ProjectsSection = () => {
       liveUrl: 'https://taskflow-4.netlify.app',
       githubUrl: 'https://github.com/kamilath-dev/',
       featured: false
-    }  
+    },  
+    {
+      id: 5,
+      title: 'TaxiVert',
+      description: `Landing page et stratégie digitale pour TaxiVert, startup spécialisée dans la location de vélos et trottinettes électriques au Bénin. Le projet inclut la création d'une landing page optimisée, intégration de Google Analytics et Hotjar, automatisation des leads et copywriting ciblé pour le persona.`,
+      technologies: ['HTML', 'CSS', 'Google Analytics', 'Hotjar'],
+      image: taxivertImage, 
+      liveUrl: 'https://taxivert-lead.netlify.app',
+      githubUrl: 'https://github.com/kamilath-dev/',
+      featured: false
+    }    
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
