@@ -10,7 +10,7 @@ const SkillsSection = () => {
       icon: <Code className="w-6 h-6" />,
       skills: [
         { name: 'HTML5 / CSS3' },
-        { name: 'JavaScript (ES6+)' },
+        { name: 'JavaScript' },
         { name: 'React.js' },
         { name: 'TypeScript' },
         { name: 'Tailwind CSS' },
@@ -20,10 +20,10 @@ const SkillsSection = () => {
       category: t('skills.backend'),
       icon: <Database className="w-6 h-6" />,
       skills: [
-        { name: 'Laravel' },
+        { name: 'Php/Laravel' },
         { name: 'MySQL' },
         { name: 'Git / GitHub' },
-        { name: 'Vite / Webpack' },
+        { name: 'Vite' },
         { name: 'API REST' },
       ]
     }
@@ -121,15 +121,15 @@ const SkillsSection = () => {
                 <div className="w-3 h-3 rounded-full bg-success mr-3"></div>
                 <div className="text-left">
                   <p className="font-medium">Certification React</p>
-                  <p className="text-small text-muted-foreground">École O'clock - 2024</p>
+                  <p className="text-small text-muted-foreground">Curcus - 2024</p>
                 </div>
               </div>
               
               <div className="skill-item">
                 <div className="w-3 h-3 rounded-full bg-success mr-3"></div>
                 <div className="text-left">
-                  <p className="font-medium">JavaScript ES6+</p>
-                  <p className="text-small text-muted-foreground">Formation avancée - 2024</p>
+                  <p className="font-medium">Logique Programmable</p>
+                  <p className="text-small text-muted-foreground">Cursus - 2024</p>
                 </div>
               </div>
               
@@ -142,10 +142,18 @@ const SkillsSection = () => {
               </div>
               
               <div className="skill-item">
+                <div className="w-3 h-3 rounded-full bg-success mr-3"></div>
+                <div className="text-left">
+                  <p className="font-medium">Responsive Design</p>
+                  <p className="text-small text-muted-foreground">FreeCodeCamp - 2025</p>
+                </div>
+              </div>
+
+              <div className="skill-item">
                 <div className="w-3 h-3 rounded-full bg-accent mr-3"></div>
                 <div className="text-left">
                   <p className="font-medium">Marketing Digital</p>
-                  <p className="text-small text-muted-foreground">En cours</p>
+                  <p className="text-small text-muted-foreground">D-CLIC - En cours</p>
                 </div>
               </div>
               
@@ -153,9 +161,10 @@ const SkillsSection = () => {
                 <div className="w-3 h-3 rounded-full bg-accent mr-3"></div>
                 <div className="text-left">
                   <p className="font-medium">Anglais Informatique</p>
-                  <p className="text-small text-muted-foreground">En cours</p>
+                  <p className="text-small text-muted-foreground">FreeCodeCamp - En cours</p>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
